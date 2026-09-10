@@ -1,0 +1,11 @@
+{
+  "name": "@zachshotamartin/stick-figure",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md", "LICENSE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "peerDependencies": { "three": "^0.180.0" },
+  "engines": { "node": ">=22" },
+  "license": "MIT"
+}
